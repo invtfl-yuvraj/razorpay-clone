@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RazorPay Clone</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <nav>
-        <div class="nav_container ">
-            <div class="logo">
-                <img src="./assets/nav_icons/logo.svg" alt="">
-            </div>
-            <ul>
-                <li>Payments</li>
-                <li>Banking+</li>
-                <li>Credit</li>
-                <li>Payroll</li>
-                <li>Resources</li>
-                <li>Support</li>
-                <li>Pricing</li>
+    <nav class="bg-deepBlue text-white font-mullish">
+        <div class="w-[1080px] mx-auto flex justify-between items-center">
+
+            <a href="/">
+                <img src="./assets/nav_icons/logo.svg" alt="logo" width="125px" height="30px">
+            </a>
+
+            <ul class="flex justify-between items-center space-x-6 py-7">
+                <li class="font-mullish "><a href="#">Payments</a></li>
+                <li>
+                    <a href="#">Banking+</a>
+                </li>
+                <li>
+                    <a href="#">Credit</a>
+                </li>
+                <li>
+                    <a href="#">Payroll</a>
+                </li>
+                <li>
+                    <a href="#">Resources</a>
+                </li>
+                <li>
+                    <a href="#">Support</a>
+                </li>
+                <li>
+                    <a href="#">Pricing</a>
+                </li>
             </ul>
-            <div>
-                <div class="country">
-                    <img src="./assets/nav_icons/india-flag.svg" alt="">
-                    <img src="./assets/nav_icons/down-arrow.svg" alt="">
+            <div class="flex justify-between space-x-4 items-center">
+                <div class="country flex justify-between items-center">
+                    <img src="./assets/nav_icons/india-flag.svg" alt="indian flag">
+                    <img class="invert" src="./assets/nav_icons/down-arrow.svg" alt="down arrow icon">
                 </div>
-                <button class="login"></button>
-                <button class="sign_up"></button>
+                <button class="login px-4 py-2 space-x-2 border border-lightBlue rounded ">Log In</button>
+                <button class="sign_up flex justify-evenly items-center px-4 py-2 space-x-2 border rounded bg-white text-lightBlue">
+                    <p>Sign up</p>
+                    <img class="fill-lightBlue h-4 w-4 " src="./assets/nav_icons/arrow-right.svg" alt="right arrow icon">
+                </button>
 
             </div>
         </div>
     </nav>
 </body>
+
 </html>
