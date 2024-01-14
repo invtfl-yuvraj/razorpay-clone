@@ -10,22 +10,23 @@
     <!-- Mulish font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
 </head>
 
-<body>
-    <nav class="bg-deepBlue text-white font-mullish">
+<body class="font-mullish">
+
+    <!-- Navigation bar -->
+    <nav class="bg-deepBlue text-white">
         <div class="w-[1080px] mx-auto flex justify-between items-center">
 
+            <!-- logo -->
             <a href="/">
                 <img src="./assets/nav_icons/logo.svg" alt="logo" width="125px" height="30px">
             </a>
 
+            <!-- nav elements -->
             <ul class="flex justify-between items-center space-x-6 py-7">
-                <li class="font-mullish "><a href="#">Payments</a></li>
+                <li class=""><a href="#">Payments</a></li>
                 <li>
                     <a href="#">Banking+</a>
                 </li>
@@ -45,6 +46,8 @@
                     <a href="#">Pricing</a>
                 </li>
             </ul>
+
+            <!-- country flag, login, signup buttons -->
             <div class="flex justify-between space-x-4 items-center">
                 <div class="country flex justify-between items-center">
                     <img src="./assets/nav_icons/india-flag.svg" alt="indian flag">
@@ -53,12 +56,18 @@
                 <button class="login px-4 py-2 space-x-2 border border-lightBlue rounded ">Log In</button>
                 <button class="sign_up flex justify-evenly items-center px-4 py-2 space-x-2 border rounded bg-white text-lightBlue">
                     <p>Sign up</p>
-                    <img class="fill-lightBlue h-4 w-4 " src="./assets/nav_icons/arrow-right.svg" alt="right arrow icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                        <path
+                            d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z">
+                        </path>
+                    </svg>
                 </button>
 
             </div>
         </div>
     </nav>
+
+
     <!--Hero Section-->
     <section class="relative bg-deepBlue">
 
@@ -67,19 +76,20 @@
             <div class="space-y-8">
                 <h1 class="font-bold text-[40px] leading-[1.2] text-white">Power your finance, grow your business</h1>
                 <div class="w-6 h-1 bg-greenLight"></div>
-                <p class="font-mullish text-[18px] leading-7 text-white opacity-70">
+                <p class="text-[18px] leading-7 text-white opacity-70">
                     Accept payments from customers. Automate payouts to vendors &
                     employees. Never run out of working capital.
                 </p>
                 <button
                     class="bg-lightBlue text-white  py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">Sign
-                    Up Now</button>
+                    Up Now
+                </button>
             </div>
 
             <!--right part-->
             <img src="./assets/hero_section/hero-illustration.jpg" alt="" class="w-full max-w-[680px]">
 
-            <!--shape part-->
+            <!--lower part-->
             <div class="">
 
             </div>
@@ -88,7 +98,7 @@
     </section>
 
     <!--feature section - 1-->
-    <section class ="">
+    <section class="">
         <img src="" alt="">
         <img src="" alt="">
         <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
@@ -98,7 +108,7 @@
         </div>
         <!--content box-->
         <div class="w-full min-h-[520px] bg-white flex rounded-md relative p-10 py-12 border">
-            
+
 
 
     </section>
