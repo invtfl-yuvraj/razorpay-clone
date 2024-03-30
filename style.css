@@ -1369,6 +1369,10 @@ video {
   background-image: url(/assets/more-features-section/instantsettlement-bg.svg);
 }
 
+.bg-\[url\(\.\/assets\/more-features-section\/core-features-sectionBg\.svg\)\] {
+  background-image: url(./assets/more-features-section/core-features-sectionBg.svg);
+}
+
 .bg-cover {
   background-size: cover;
 }
