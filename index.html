@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RazorPay Clone</title>
+
+    <!-- npx tailwindcss -i ./input.css -o ./style.css --watch -->
     <link rel="stylesheet" href="./style.css">
 
     <!-- Mulish font -->
@@ -1613,6 +1615,14 @@
             </div>
         </div>
     </footer>
+
+    <script setup>
+        const imageUrl = new URL('/src/assets/images/logo.svg', import.meta.url)
+        </script>
+        
+        <template>
+          <img :src="imageUrl" alt="img" />
+        </template>
 </body>
 
 </html>
