@@ -11,7 +11,7 @@ This project is a clone of Rayzorpay's website frontend, developed using HTML an
 
 
 ## Preview
-You can see a live preview here : [will be updated soon]
+You can see a live preview here : https://rayzorpay-clone.vercel.app/
 
 ## Features
 
