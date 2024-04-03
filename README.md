@@ -28,7 +28,7 @@ You can see a live preview here : [will be updated soon]
 1. Clone the repository:
 
     ```bash
-    git clone [link soon]
+    git clone https://github.com/invtfl-yuvraj/razorpay-clone.git
 
 2. Navigate to the project directory:
     ```bash
